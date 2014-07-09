@@ -7,6 +7,10 @@
 */
 /* {margin:0;padding:0;}*/
 
+.wpjm-shortcodes-shortcode-config-content label > small {
+	color: #888888;
+	font-weight: 300;
+}
 
 .wp-job-manager-shortwidget-modal-content {
   background: none repeat scroll 0 0 #FFFFFF;
