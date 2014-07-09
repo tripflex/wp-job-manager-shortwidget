@@ -19,7 +19,7 @@ class Widget_job_summary extends WP_Widget {
 			'job_summary-id',
 			__( 'Job Summary', 'wp-job-manager-shortwidget' ),
 			array(
-				'description'	=>	__( 'Output a single job's summary.', 'wp-job-manager-shortwidget' )
+				'description'	=>	__( 'Output a single job\'s summary.', 'wp-job-manager-shortwidget' )
 			)
 		);
 
