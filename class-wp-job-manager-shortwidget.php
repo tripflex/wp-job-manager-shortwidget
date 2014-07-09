@@ -71,10 +71,10 @@ class Wp_Job_Manager_Shortwidget {
 			add_action( 'admin_footer', array( $this, 'shortcode_modal_template' ) );
 		}
 // Add shortcodes
-		add_shortcode('job', array($this, 'render_element'));
-		add_shortcode('jobs', array($this, 'render_element'));
-		add_shortcode('job_summary', array($this, 'render_element'));
-		add_shortcode('job_field', array($this, 'render_element'));
+//		add_shortcode('job', array($this, 'render_element'));
+//		add_shortcode('jobs', array($this, 'render_element'));
+//		add_shortcode('job_summary', array($this, 'render_element'));
+//		add_shortcode('job_field', array($this, 'render_element'));
 		$this->elements = array_merge($this->elements, array(
 			'shortcodes'			=>	array(
 				'job' 			=> '1',
