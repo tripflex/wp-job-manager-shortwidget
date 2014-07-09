@@ -90,6 +90,10 @@ function wp_job_manager_shortwidget_sendCode(){
 			var thisinput = jQuery(this),
 				attname = this.name;
 
+			if ( attname == 'per_page' && this.value == '0' ) {
+				return;
+			}
+
 			if(thisinput.prop('type') == 'checkbox'){
 				if(!thisinput.prop('checked')){
 					return;
