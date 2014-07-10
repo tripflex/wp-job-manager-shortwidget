@@ -16,5 +16,6 @@ $configfiles = array(
 	self::get_path( __FILE__ ) . 'jobs-ordering.php', 
 	self::get_path( __FILE__ ) . 'jobs-filtering.php', 
 	self::get_path( __FILE__ ) . 'jobs-categories.php', 
+	self::get_path( __FILE__ ) . 'jobs-pagination.php', 
 );
 

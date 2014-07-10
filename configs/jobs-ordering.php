@@ -27,7 +27,7 @@ $group = array(
 			'label'		=> 	__('Order By<br><small>Optional</small>','wp-job-manager-shortwidget'),
 			'caption'	=>	__('Defaults to \'date\'. Supports title, ID, name, date, modified, parent, rand.','wp-job-manager-shortwidget'),
 			'type'		=>	'dropdown',
-			'default'	=> 	'date||Date,title||Title,ID||ID,name||Name,modified||Modified,parent||Parent,rand||Random',
+			'default'	=> 	'date||Date,title||Title,ID||ID,name||Name,modified||Modified,parent||Parent,rand||Random,job_expires||Expiration',
 		),
 	),
 	'styles'	=> array(

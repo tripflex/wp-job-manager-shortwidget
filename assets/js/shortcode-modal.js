@@ -89,7 +89,7 @@ function wp_job_manager_shortwidget_sendCode(){
 			// see if its a checkbox
 			var thisinput = jQuery(this),
 				attname = this.name;
-
+			
 			if ( attname == 'per_page' && this.value == '0' ) {
 				return;
 			}
