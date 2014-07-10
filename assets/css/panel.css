@@ -12,6 +12,14 @@
 	font-weight: 300;
 }
 
+.wp-job-manager-shortwidget-widget-config-nav {
+	overflow: auto;
+}
+
+.wp-job-manager-shortwidget_widget_label {
+	margin-bottom: 5px;
+}
+
 .wp-job-manager-shortwidget-modal-content {
   background: none repeat scroll 0 0 #FFFFFF;
   bottom: 0;
