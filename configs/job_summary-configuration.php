@@ -18,7 +18,7 @@ $group = array(
 	'fields' => array(
 		'id'	=>	array(
 			'label'		=> 	__('Job<br><small>Required</small>','wp-job-manager-shortwidget'),
-			'caption'	=>	__('Outputs a single job\\'s summary by ID.','wp-job-manager-shortwidget'),
+			'caption'	=>	__('Outputs a single job\'s summary by ID.','wp-job-manager-shortwidget'),
 			'type'		=>	'posttypeselector',
 			'default'	=> 	'job_listing',
 		),
