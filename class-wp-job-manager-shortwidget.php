@@ -71,16 +71,18 @@ class Wp_Job_Manager_Shortwidget {
 			add_action( 'admin_footer', array( $this, 'shortcode_modal_template' ) );
 		}
 // Add shortcodes
-//		add_shortcode('job', array($this, 'render_element'));
-//		add_shortcode('jobs', array($this, 'render_element'));
-//		add_shortcode('job_summary', array($this, 'render_element'));
-//		add_shortcode('job_field', array($this, 'render_element'));
+		// add_shortcode('job', array($this, 'render_element'));
+		// add_shortcode('jobs', array($this, 'render_element'));
+		// add_shortcode('job_summary', array($this, 'render_element'));
+		// add_shortcode('job_field', array($this, 'render_element'));
+		// add_shortcode('submit_job_form', array($this, 'render_element'));
 		$this->elements = array_merge($this->elements, array(
 			'shortcodes'			=>	array(
 				'job' 			=> '1',
 				'jobs' 			=> '1',
 				'job_summary' 			=> '1',
 				'job_field' 			=> '1',
+				'submit_job_form' 			=> '1',
 			)
 		));
 
@@ -495,6 +497,7 @@ class Wp_Job_Manager_Shortwidget {
 <option value=\"jobs\">".__('Job List','wp-job-manager-shortwidget')."</option>
 <option value=\"job_summary\">".__('Job Summary','wp-job-manager-shortwidget')."</option>
 <option value=\"job_field\">".__('Job Field','wp-job-manager-shortwidget')."</option>
+<option value=\"submit_job_form\">".__('Submit Job Form','wp-job-manager-shortwidget')."</option>
 </select>
 </span>
 \r\n";
