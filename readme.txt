@@ -20,19 +20,19 @@ Insert shortcodes or add widgets based on the WP Job Manager shortcodes.
 * Job Fields
 * Single Job
 
-[Read more about WP Login Flow](https://github.com/tripflex/wp-job-manager-shortbuilder).
+[Read more about WP Login Flow](https://github.com/tripflex/wp-job-manager-shortwidget).
 
 = Documentation =
 
-Documentation will be maintained on the [GitHub Wiki here](https://github.com/tripflex/wp-job-manager-shortbuilder/wiki).
+Documentation will be maintained on the [GitHub Wiki here](https://github.com/tripflex/wp-job-manager-shortwidget/wiki).
 
 = Contributing and reporting bugs =
 
-You can contribute code and localizations to this plugin via GitHub: [https://github.com/tripflex/wp-job-manager-shortbuilder](https://github.com/tripflex/wp-job-manager-shortbuilder)
+You can contribute code and localizations to this plugin via GitHub: [https://github.com/tripflex/wp-job-manager-shortwidget](https://github.com/tripflex/wp-job-manager-shortwidget)
 
 = Support =
 
-If you spot a bug, you can of course log it on [Github](https://github.com/tripflex/wp-job-manager-shortbuilder)
+If you spot a bug, you can of course log it on [Github](https://github.com/tripflex/wp-job-manager-shortwidget)
 
 Or contact me at myles@smyl.es
 
