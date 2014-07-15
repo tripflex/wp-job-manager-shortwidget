@@ -58,6 +58,6 @@ The manual installation method involves downloading the plugin and uploading it 
 
 == Changelog ==
 
-= 1.0.0 =
-* - July 10, 2014
+= 1.0.0 ( July 10, 2014 ) =
+
 * Initial Creation
